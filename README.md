@@ -1,9 +1,5 @@
-# What is it?
+# SYL的笔记
 
-这是我的个人笔记，方便日后复习和速查
+<div id="oneyan"></div>
 
-在线阅读：[https://cloudlandboy.github.io/myNote](https://cloudlandboy.github.io/myNote)
-
-以前是写html或者markdown然后一个个上传至服务器：[https://note.zzrfdsn.cn/](https://note.zzrfdsn.cn/)
-
-现在用git管理更加方便
+ <script>var reloaded=false;$(function () { $.get("https://api.ooopn.com/ciba/api.php", function (r) { if (r.code == 200) { console.log(r); $("#oneyan").html("<small>" + r.date + "</small><p>" + r.ciba + "</p><p>" + r["ciba-en"] + '</p><p><img src="' + r.imgurl + '" height="480" width="330" onerror="javascript:this.src=\'https://api.ixiaowai.cn/gqapi/gqapi.php\';this.onerror = null;this.removeAttribute(\'height\');this.removeAttribute(\'width\')"></img></p><p></p>').css("text-indent", "2em") } }, "json"); });</script>
